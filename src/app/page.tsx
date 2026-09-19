@@ -793,10 +793,10 @@ export default async function FkipPgsdPage() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             
             <div className="md:col-span-2">
-              <div className="bg-white inline-block p-2 rounded mb-4">
-                <img src={SETTINGS.Logo || "/logo-fkip-clean.png"} alt="Logo FKIP" className="h-10 w-auto object-contain" />
+              <div className="bg-white inline-block p-3 rounded-lg mb-6">
+                <img src={SETTINGS.Logo || "/logo-fkip-clean.png"} alt="Logo FKIP" className="h-14 w-auto object-contain" />
               </div>
-              <p className="text-gray-400 text-sm max-w-sm mt-2 leading-relaxed">
+              <p className="text-gray-400 text-sm max-w-sm leading-relaxed">
                 Fakultas Keguruan dan Ilmu Pendidikan, Universitas Sapta Mandiri. Menyelenggarakan pendidikan berkualitas untuk mencetak pendidik berintegritas.
               </p>
             </div>

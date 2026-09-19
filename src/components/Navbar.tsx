@@ -14,11 +14,11 @@ export default function Navbar({ logoUrl }: { logoUrl?: string }) {
             <img 
               src={logoUrl || "/logo-fkip-clean.png"} 
               alt="Logo FKIP" 
-              className="h-[50px] w-auto rounded-full object-contain bg-white" 
+              className="h-[65px] w-auto object-contain drop-shadow-sm" 
             />
-            <div className="hidden sm:block border-l border-gray-300 pl-3">
-              <h1 className="text-xl font-bold text-[#0B315A] tracking-tight">Fakultas Keguruan dan Ilmu Pendidikan</h1>
-              <p className="text-xs text-gray-600">Universitas Sapta Mandiri</p>
+            <div className="hidden sm:block border-l-2 border-gray-300 pl-4">
+              <h1 className="text-xl font-bold text-[#0B315A] tracking-tight leading-tight">Fakultas Keguruan dan Ilmu Pendidikan</h1>
+              <p className="text-sm text-gray-600 font-medium">Universitas Sapta Mandiri</p>
             </div>
           </div>
 
